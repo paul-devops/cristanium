@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}New Article{% endblock %}
+{% block title %} Nouvel Article {% endblock %}
 {% block stylesheets %}
     <style>
         .wrapper-form{
@@ -35,11 +35,11 @@
 {% endblock %}
 {%  form_theme form 'bootstrap_4_layout.html.twig' %}
 {% block body %}
-    <h1>Create new Article</h1>
+    <h1>Créer un nouvel Article</h1>
     <div class="wrapper-form">
         {{ include('article/_form.html.twig') }}
     </div>
 
 
-    <a href="{{ path('article_index') }}">back to list</a>
+    <a href="{{ path('article_index') }}">Retour à la liste</a>
 {% endblock %}
