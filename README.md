@@ -1,1 +1,1 @@
-Paul local project
+Paul project
